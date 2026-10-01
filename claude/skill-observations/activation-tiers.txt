@@ -1,0 +1,1 @@
+2026-09-29 tiers presentes: (1) bloco de instrucao em ~/.claude/CLAUDE.md; (2) hook SessionStart ~/.claude/hooks/task-observer-activate.sh em ~/.claude/settings.json. Espelhos: OpenCode (claude-compat.js) e Goose (hook_bridge SessionStart).

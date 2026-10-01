@@ -1,0 +1,128 @@
+2026-09-23 11:43 [Gestor de Pecas] session-start scan: files=0 parsed=0 (subagent audit A dominio/dados)
+2026-09-23 11:43 [gestor-pecas] session-start scan (subagent audit C)
+2026-09-23 11:44 [gestor-pecas] session-start scan (subagent audit D)
+2026-09-24 11:07 [gestor-pecas] session-start scan: files=0 parsed=0
+2026-09-24 13:29 [gestor-pecas-ui-audit] session-start scan: files=1 parsed=1
+2026-09-24 13:32 [critique-B-subagent] session-start scan: files=1 parsed=1
+2026-09-24 14:13 [Gestor de Peças - Area de Testes] session-start scan: files=1 parsed=1
+2026-09-24 14:34 [GestorPecas-OEE] session-start scan: files=0
+2026-09-25 09:48 [gestor-pecas] session-start scan: files=1 parsed=1
+2026-09-26 16:40 [memory-consolidation] session-start scan: files=1 parsed=1; prior static-bundle observation was not applicable to this memory-only task
+2026-09-26 16:45 [iago-company-os-audit] session-start scan: files=1 parsed=1 open=1 unresolved-skills=0 pending-updates=0
+2026-09-26 16:58 [iago-company-os-audit] checkpoint: no new observations; main synced and backend gates green (141 core, 26 dashboard)
+2026-09-26 17:01 [iago-company-os-audit] checkpoint: no new observations; evals and frontend gates green (63 evals, 3 unit, 10 e2e)
+2026-09-26 17:18 [iago-company-os-audit] checkpoint: no new skill observations; three concrete repository defects corrected and covered by gates
+2026-09-26 17:20 [final_diff_review] session-start scan: files=1 parsed=1
+2026-09-26 17:23 [final_diff_review] deliverable flush: no new observations
+2026-09-26 17:25 [iago-company-os-audit] checkpoint: no new observations; full post-fix regression green and independent diff review resolved
+2026-09-26 17:27 [iago-company-os-audit] deliverable flush: no new observations
+2026-09-26 17:30 [iago-company-os-push] session-start scan: files=1 parsed=1 open=1 unresolved-skills=0 pending-updates=0
+2026-09-26 17:31 [iago-company-os-push] deliverable flush: no new observations
+2026-09-26 17:38 [iago-company-os] session-start scan: files=1 parsed=1
+2026-09-26 17:42 [iago-company-os] deliverable flush: no new observations
+2026-09-26 19:09 [iago-company-os-operational] session-start scan: files=1 parsed=1 open=1 unresolved-skills=0 pending-updates=0
+2026-09-26 19:08 [validation_cli] session-start scan: files=1
+2026-09-26 19:11 [validation_cli] no new observations; CLI implementation and targeted validation complete.
+2026-09-26 19:14 [validation_cli_review] session-start scan: files=1 parsed=1
+2026-09-26 19:42 [iago-company-os] session-start scan: files=1
+2026-09-26 20:16 [iago-company-os] session-start scan: files=1 parsed=1
+2026-09-26 20:20 [iago-company-os] deliverable flush: no observations
+2026-09-26 21:11 [iago-company-os] deliverable flush: no observations
+2026-09-26 21:46 [memory-consolidation-phase2] session-start scan: files=1 parsed=1; static-bundle browser verification observation is not applicable to this file-based memory consolidation task
+2026-09-26 21:48 [memory-consolidation-phase2] deliverable flush: no new observations; only rollout provenance was normalized and propagated
+2026-09-26 21:47 [iago-company-os-local-env] session-start scan: files=1 parsed=1 open=1 unresolved-skills=0 pending-updates=0
+2026-09-26 21:48 frontend-local session-start scan: files=1 parsed=1
+2026-09-26 21:52 [iago-company-os-local-env] deliverable flush: no new observations; local PostgreSQL, FastAPI and Vite verified end to end
+2026-09-26 22:02 [iago-company-os-demo] session-start scan: files=1 parsed=1 open=1 unresolved-skills=0 pending-updates=0
+2026-09-26 22:02 [demo_readonly_audit] session-start scan: files=1 parsed=1 open=1
+2026-09-26 22:09 [iago-company-os-demo] deliverable flush: no new observations; local S01 Codex flow, Opportunity persistence, APIs and Dashboard verified end to end
+2026-09-27 11:13 [codex-memories] session-start scan: files=1 parsed=1 open=1
+2026-09-27 11:13 [iago-company-os-first-revenue] session-start scan: files=1 parsed=1
+2026-09-27 11:13 [codex-memories] checkpoint: no observations after consolidation intake
+2026-09-27 11:14 [phase11-flow-map] session-start scan: files=1 parsed=1
+2026-09-27 11:15 [phase11_doc_drift] session-start scan: files=1 parsed=1
+2026-09-27 11:16 [codex-memories] deliverable flush: no new task-observer observations
+2026-09-27 11:17 [phase11_doc_drift] checkpoint: no observations after canonical-read, drift-scan, and documentation patch
+2026-09-27 11:18 [phase11_doc_drift] deliverable flush: no new task-observer observations
+2026-09-27 11:27 [iago-company-os-first-revenue] checkpoint: no observations after sync, canonical review, and baseline gates
+2026-09-27 11:29 [iago-company-os-first-revenue] checkpoint: no observations after phase 11 drift correction and dashboard KPI fix
+2026-09-27 11:47 [iago-company-os-first-revenue] deliverable flush: no new observations; first real RevenueRun reached READY_FOR_OUTREACH with gates green and no external effect
+2026-09-27 11:52 [iago-company-os-goal-close] deliverable flush: no new observations; persisted checkpoint revalidated and documentation ambiguity removed
+2026-09-27 11:27 [gestor-de-pecas] session-start scan: files=1 parsed=1
+2026-09-27 11:29 [gestor-de-pecas] no observations (workforce sync)
+2026-09-27 11:47 [iago-company-os-goal-close] session-start scan: files=1 parsed=1
+2026-09-28 08:06 [Gestor-de-Pecas] session-start scan: files=1 parsed=1
+2026-09-28 08:43 [Gestor de Peças - Area de Testes] session-start scan: files=1
+2026-09-28 09:43 [gestor] session-start scan
+2026-09-28 13:08 [iago-company-os] session-start scan: files=1 parsed=1
+2026-09-28 14:52 [memory-consolidation-phase2] session-start scan: files=3 parsed=3 open=3; task-observer SKILL.md was absent, so the stable observation log and cross-cutting principles were scanned directly
+2026-09-28 14:55 [memory-consolidation-phase2] deliverable flush: no new task-observer observations; consolidated rollout provenance replacement, new IAgo Company OS runtime/revenue checkpoint, and ZIP path normalization
+2026-09-28 15:48 [Gestor de Pecas - Area de Testes] session-start scan: files=3 parsed=3 open=3 suspect=0
+2026-09-28 15:52 [audit_data_perf] session-start scan: files=3 parsed=3
+2026-09-28 15:53 [audit_arch_mes] session-start scan: files=3 parsed=3
+2026-09-28 15:53 [Gestor-de-Pecas-auditoria-security] session-start scan: files=3 parsed=3
+2026-09-28 15:56 [audit_arch_mes] checkpoint: no observations after setup, baseline, and architecture inventory
+2026-09-28 16:00 [audit_data_perf] deliverable checkpoint: no observations
+2026-09-28 16:04 [audit_arch_mes] final: no new skill observations; diagnostic audit completed read-only
+2026-09-29 08:37 [Gestor de Peças - Area de Testes] session-start scan: files=3 parsed=3
+2026-09-29 09:29 [memories] session-start scan
+2026-09-29 09:30 [gestor] session-start scan: files=3
+2026-09-29 09:30 [ex] session-start scan: files=3 parsed=3
+2026-09-29 09:53 [ex] deliverable flush: no observations
+2026-09-29 10:01 [ex] deliverable flush: no observations
+2026-09-29 10:01 [memories] session-start scan: files=3 parsed=3
+2026-09-29 18:15 [memories] session-start scan: files=5 parsed=5
+2026-09-29 18:15 [codex-chrome] session-start scan: files=5 parsed=5
+2026-09-29 18:19 [totvs-crawler-impl] session-start scan: files=5 parsed=5
+2026-09-29 18:33 [totvs-crawler-impl] checkpoint: no observations
+2026-09-29 18:44 [totvs-crawler-impl] pre-delivery checkpoint: no observations
+2026-09-29 18:46 [totvs-crawler-impl] deliverable flush: no observations
+2026-09-30 11:10 [scratch-2026-09-30-aed621] session-start scan: files=6 parsed=6
+2026-09-30 17:21 [stable-observation-workspace] session-start scan: files=6 parsed=6
+2026-09-30 17:24 [skill-observations] session-start scan: files=6 parsed=6
+2026-09-30 17:28 [vm-format] deliverable flush: no observations
+2026-09-30 17:50 [BOT AFILIADO] session-start scan: files=6 parsed=6
+2026-09-30 17:52 [p0_impl] session-start scan: files=6 parsed=6
+2026-09-30 18:00 [BOT AFILIADO/p1_impl] session-start scan: files=6 parsed=6
+2026-09-30 18:18 [BOT AFILIADO/p1_impl] checkpoint: no observations
+2026-09-30 18:25 [BOT AFILIADO/p1_impl] checkpoint: no observations
+2026-09-30 18:43 [BOT AFILIADO/p1_impl] deliverable flush: no observations
+2026-09-30 19:04 [BOT AFILIADO/p1_impl] checkpoint P2 adapters: no observations
+2026-09-30 18:27 [BOT AFILIADO] session-start scan: files=6 parsed=6
+2026-09-30 18:44 [BOT AFILIADO/p1_impl] checkpoint P2 tests and Telegram package: no observations
+2026-09-30 18:49 [BOT AFILIADO/p1_impl] deliverable flush P2: no observations
+2026-09-30 19:01 [BOT AFILIADO/p1_impl] checkpoint P3 auth analytics compliance: no observations
+2026-09-30 19:06 [BOT AFILIADO/p1_impl] checkpoint P3 full suite 45 passed: no observations
+2026-09-30 19:09 [BOT AFILIADO/p1_impl] checkpoint P3 docs E2E Brain: no observations
+2026-09-30T19:17:22.3425687-03:00 final P3: 46 passed, disposable E2E cleanup OK, no observations
+2026-09-30 19:19 [BOT AFILIADO] session-start scan: files=6 parsed=6
+2026-09-30 19:19 [llm_provider] session-start scan: files=6 parsed=6
+2026-09-30 19:21 [admitad-feed] session-start scan: files=6 parsed=6
+2026-09-30 23:40 [instagram_official] session-start scan: files=6 parsed=6
+2026-09-30 23:48 [instagram_official] checkpoint: no observations
+2026-09-30 23:56 [instagram_official] deliverable flush: no observations
+2026-09-30 23:56 [instagram_official] final flush after review: no observations
+2026-09-30 23:58 [discount_verification] session-start scan: files=6 parsed=6
+2026-10-01 00:05 [discount_verification] deliverable flush: no observations
+2026-10-01 00:10 [BOT AFILIADO] session-start scan: files=6 parsed=6
+2026-10-01 00:12 [curation_feedback] session-start scan: files=6 parsed=6
+2026-10-01 04:38 [memories] session-start scan: files=6 parsed=6; task-observer SKILL.md absent, so stable observation log and cross-cutting principles were scanned directly
+2026-10-01 04:45 [memories] deliverable flush: no new task-observer observations; Phase 2 consolidated two new rollout summaries with provenance, safety boundaries, and retrieval routing
+2026-10-01 04:54 [BOT AFILIADO] session-start scan: files=6 parsed=6
+2026-10-01 05:24 [codex-memories] session-start scan: files=6 parsed=6
+2026-10-01 05:38 [memories] session-start scan: files=6 parsed=6
+2026-10-01 05:40 [memories] completion: no observations; consolidated 2 new rollout summaries
+2026-10-01 06:00 [memories] session-start scan: files=6 parsed=6 open=2 unresolved-skills=0 pending-updates=0
+2026-10-01 06:05 [memories] deliverable flush: updated observation #6 for the task-observer activation-precondition recurrence; Phase 2 consolidated two rollout summaries
+2026-10-01 05:54 [BOT AFILIADO] session-start scan: files=6 parsed=6
+2026-10-01 06:07 [BOT AFILIADO] session-start scan: files=6 parsed=6
+2026-10-01 06:08 [codex] session-start scan: files=6 parsed=6
+2026-10-01 06:23 [memories] session-start scan: files=6 parsed=6; task-observer SKILL.md absent, so stable observation log and cross-cutting principles were scanned directly
+2026-10-01 06:23 [memories] deliverable flush: no new task-observer observations; Phase 2 consolidated OpenCode/Nemotron plugin, inbox-memory, and MSIX MCP-runtime evidence with pending-validation shields
+2026-10-01 06:30 [BOT AFILIADO] no observations after local tracking, availability and automation pause
+2026-10-01 08:20 [BOT AFILIADO] session-start scan: files=6 parsed=6
+2026-10-01 08:54 [BOT AFILIADO] session-start scan: files=6 parsed=6
+2026-10-01 09:31 [BOT AFILIADO] session-start scan: files=6 parsed=6
+2026-10-01 09:33 [skill-observations] session-start scan: files=6 parsed=6
+2026-10-01 09:33 [skill-observations] session-start scan: files=6 parsed=6
+2026-10-01 11:06 [gestor] session-start scan

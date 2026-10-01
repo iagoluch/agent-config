@@ -1,0 +1,10 @@
+version = 1
+id = "retomar-bot-afiliado-ap-s-limite"
+kind = "heartbeat"
+name = "Retomar BOT AFILIADO após reset da cota"
+prompt = "Continue nesta mesma conversa o objetivo BOT AFILIADO descrito em C:\\Users\\iago.luchtenberg\\.codex\\attachments\\3df6103f-b754-46a2-8073-a6d90a538f8e\\goal-objective.md, preservando o trabalho já feito. Primeiro consulte o limite Codex de 5 horas. Enquanto ordinaryUsageAllowed=false ou a janela primária estiver com usedPercent=100, não execute trabalho e fique em silêncio. Depois do reset confirmado, quando ordinaryUsageAllowed=true e usedPercent estiver abaixo de 100, retome automaticamente esta meta nesta mesma conversa e continue a implementação/validação local. Não publique externamente nem afirme que o MVP real foi validado sem credenciais e aprovações. Avise apenas quando houver progresso material, conclusão, falha ou ação necessária do usuário. Quando não restar trabalho executável sem dependência externa, desative esta automação e informe o bloqueio concreto."
+status = "PAUSED"
+rrule = "RRULE:FREQ=MINUTELY;INTERVAL=15"
+target_thread_id = "01a0f414-711d-7291-964d-d11ac3ba029e"
+created_at = 1790807124812
+updated_at = 1790847026292

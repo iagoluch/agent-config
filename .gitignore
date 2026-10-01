@@ -1,0 +1,6 @@
+.credentials.json
+auth.json
+.claude.json
+*.sqlite*
+*.jsonl
+.env

@@ -1,0 +1,39 @@
+{
+  "state": "blocked",
+  "detail": "API Error: 500 llama-server startup failed after projector CPU offload retry: llama-server process has terminated: exit status 1: ggml_backend_cpu_buffer_type_alloc_buffer: failed to allocate buffer of size 13165314048 alloc_tensor_range: failed to allocate CPU_REPACK buffer of size 13165314048 error loading model: unable to allocate CPU_REPACK buffer. This is a server-side issue, usually temporary — try again in a moment. If it persists, check your inference gateway (127.0.0.1:11434).",
+  "tempo": "blocked",
+  "inFlight": {
+    "tasks": 0,
+    "queued": 0,
+    "kinds": []
+  },
+  "output": null,
+  "children": null,
+  "linkScanOffset": 14639,
+  "linkScanPath": "C:\\Users\\logistica.unidade4\\.claude\\projects\\C--Users-logistica-unidade4\\3a0c9a9a-0371-4c68-a5ae-170b1757cfbe.jsonl",
+  "template": "bg",
+  "respawnFlags": [
+    "--permission-mode",
+    "default",
+    "--model",
+    "qwen3.6"
+  ],
+  "bgIsolation": "none",
+  "providerEnv": {
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "qwen3.6",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "qwen3.6",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "qwen3.6",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "qwen3.6"
+  },
+  "interactiveLineage": true,
+  "intent": "",
+  "sessionId": "3a0c9a9a-0371-4c68-a5ae-170b1757cfbe",
+  "resumeSessionId": "3a0c9a9a-0371-4c68-a5ae-170b1757cfbe",
+  "daemonShort": "3a0c9a9a",
+  "cwd": "C:\\Users\\logistica.unidade4",
+  "createdAt": "2026-08-04T19:43:03.144Z",
+  "updatedAt": "2026-08-04T19:48:05.223Z",
+  "firstTerminalAt": null,
+  "backend": "daemon",
+  "needs": "API unavailable — retry · API Error: 500 llama-server startup failed after projector CPU offload retry: llama-server process has terminated: exit status 1: ggml_backend_cpu_buffer_type_alloc_buffer: failed to allocate buffer of size 13165314048 alloc_tensor_range: failed to allocate CPU_REPACK buffer of size 13165314048 error loading model: unable to allocate CPU_REPACK buffer. This is a server-side issue, usually temporary — try again in a moment. If it persists, check your inference gateway (127.0.0.1:11434)."
+}

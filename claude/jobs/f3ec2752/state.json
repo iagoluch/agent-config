@@ -1,0 +1,39 @@
+{
+  "state": "working",
+  "detail": "(idle — send a prompt to start)",
+  "tempo": "idle",
+  "inFlight": {
+    "tasks": 0,
+    "queued": 0,
+    "kinds": []
+  },
+  "output": null,
+  "children": null,
+  "linkScanOffset": 947862,
+  "template": "bg",
+  "respawnFlags": [
+    "--reply-on-resume",
+    "--permission-mode",
+    "default",
+    "--model",
+    "qwen3.6"
+  ],
+  "bgIsolation": "none",
+  "providerEnv": {
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "qwen3.6",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "qwen3.6",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "qwen3.6",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "qwen3.6"
+  },
+  "interactiveLineage": true,
+  "intent": "(backgrounded)",
+  "sessionId": "f3ec2752-55b9-4481-afaa-756217946523",
+  "resumeSessionId": "f3ec2752-55b9-4481-afaa-756217946523",
+  "daemonShort": "f3ec2752",
+  "cwd": "C:\\Users\\logistica.unidade4",
+  "createdAt": "2026-08-04T20:04:24.606Z",
+  "updatedAt": "2026-08-04T20:04:30.900Z",
+  "firstTerminalAt": null,
+  "backend": "daemon",
+  "linkScanPath": "C:\\Users\\logistica.unidade4\\.claude\\projects\\C--Users-logistica-unidade4\\f3ec2752-55b9-4481-afaa-756217946523.jsonl"
+}

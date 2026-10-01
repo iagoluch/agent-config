@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "plugins": {
+    "pg@aiguide": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\iago.luchtenberg\\.claude\\plugins\\cache\\aiguide\\pg\\0.6.1",
+        "version": "0.6.1",
+        "installedAt": "2026-09-20T19:16:13.163Z",
+        "lastUpdated": "2026-09-20T19:16:13.163Z",
+        "gitCommitSha": "2bf9f11df6175d555e9a7f63325b226dca71c1b7"
+      }
+    ],
+    "claude-code-setup@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\iago.luchtenberg\\.claude\\plugins\\cache\\claude-plugins-official\\claude-code-setup\\1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-09-20T23:54:59.441Z",
+        "lastUpdated": "2026-09-20T23:54:59.441Z",
+        "gitCommitSha": "c447c3207a425bc4e2a0d068435f64b0477ae981"
+      }
+    ],
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\iago.luchtenberg\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0",
+        "version": "6.3.0",
+        "installedAt": "2026-09-29T17:59:27.159Z",
+        "lastUpdated": "2026-09-29T17:59:27.159Z",
+        "gitCommitSha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd /c \"%USERPROFILE%\\.claude\\brain\\hooks\\brain.cmd session-start\"",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd /c C:\\Users\\iago.luchtenberg\\.codex\\hooks\\task-observer-activate.cmd",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd /c \"%USERPROFILE%\\.claude\\brain\\hooks\\brain.cmd prompt\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

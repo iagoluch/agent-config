@@ -1,0 +1,56 @@
+{
+  "autoUpdatesChannel": "latest",
+  "theme": "dark",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd /c \"%USERPROFILE%\\.claude\\brain\\hooks\\brain.cmd session-start\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd /c \"%USERPROFILE%\\.claude\\brain\\hooks\\brain.cmd prompt\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd /c \"%USERPROFILE%\\.claude\\brain\\hooks\\brain.cmd tool\"",
+            "timeout": 10,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd /c \"%USERPROFILE%\\.claude\\brain\\hooks\\brain.cmd stop\"",
+            "timeout": 10,
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}

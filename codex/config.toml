@@ -1,0 +1,205 @@
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+model_reasoning_summary = "detailed"
+model = "gpt-6-sol"
+model_reasoning_effort = "high"
+project_doc_max_bytes = 98304
+
+notify = [ "C:\\Users\\iago.luchtenberg\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\b63ee7ee40c23b77\\bin\\node_modules\\@oai\\sky\\bin\\windows\\codex-computer-use.exe", "turn-ended" ]
+service_tier = "default"
+[desktop]
+followUpQueueMode = "steer"
+ambient-suggestions-enabled = false
+show-context-window-usage = true
+external-agent-import-sync-enabled = true
+appearanceDarkCodeThemeId = "github"
+enabled-reasoning-efforts = [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "persistent",
+]
+open-local-url-in-target-preference = "external-browser"
+external-agent-import-sync-item-types = "all"
+conversationDetailMode = "STEPS_COMMANDS"
+keepRemoteControlAwakeWhilePluggedIn = true
+
+[desktop.appearanceDarkChromeTheme]
+accent = "#1f6feb"
+accentSource = "custom"
+contrast = 60
+ink = "#e6edf3"
+opaqueWindows = false
+surface = "#0d1117"
+
+[desktop.appearanceDarkChromeTheme.fonts]
+
+[desktop.appearanceDarkChromeTheme.semanticColors]
+diffAdded = "#3fb950"
+diffRemoved = "#f85149"
+skill = "#bc8cff"
+
+[marketplaces.openai-bundled]
+source_type = "local"
+source = '\\?\C:\Users\iago.luchtenberg\.codex\.tmp\bundled-marketplaces\openai-bundled'
+
+[marketplaces.openai-primary-runtime]
+source_type = "local"
+source = '\\?\C:\Users\iago.luchtenberg\.cache\codex-runtimes\codex-primary-runtime\plugins\openai-primary-runtime'
+
+[marketplaces.aiguide]
+source_type = "git"
+source = "https://github.com/timescale/pg-aiguide.git"
+
+[marketplaces.claude-plugins-official]
+source_type = "git"
+source = "https://github.com/anthropics/claude-plugins-official.git"
+
+[plugins."codex-app-tools@openai-bundled"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."unified-computer-use@openai-bundled"]
+enabled = true
+
+[plugins."chrome@openai-bundled"]
+enabled = true
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[plugins."visualize@openai-bundled"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = true
+
+[plugins."claude-code-setup@claude-plugins-official"]
+enabled = true
+
+[plugins."superpowers@claude-plugins-official"]
+enabled = true
+
+[windows]
+sandbox = "elevated"
+
+[mcp_servers.node_repl]
+args = []
+command = 'C:\Users\iago.luchtenberg\AppData\Local\OpenAI\Codex\runtimes\cua_node\b63ee7ee40c23b77\bin\node_repl.exe'
+env_vars = ["CODEX_WINDOWS_REGISTERED_CORE"]
+startup_timeout_sec = 120
+
+[mcp_servers.node_repl.env]
+NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS = "1000"
+NODE_REPL_NODE_MODULE_DIRS = 'C:\Users\iago.luchtenberg\AppData\Local\OpenAI\Codex\runtimes\cua_node\b63ee7ee40c23b77\bin\node_modules'
+NODE_REPL_NODE_PATH = 'C:\Users\iago.luchtenberg\AppData\Local\OpenAI\Codex\runtimes\cua_node\b63ee7ee40c23b77\bin\node.exe'
+NODE_REPL_TRUSTED_CODE_PATHS = 'C:\Users\iago.luchtenberg\.codex;C:\Users\iago.luchtenberg\AppData\Local\OpenAI\Codex\runtimes\cua_node\b63ee7ee40c23b77\bin\node_modules'
+CODEX_HOME = 'C:\Users\iago.luchtenberg\.codex'
+BROWSER_USE_AVAILABLE_BACKENDS = "chrome,iab"
+BROWSER_USE_TINYSKY_ENABLED = "1"
+NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER = ""
+NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME = ""
+BROWSER_USE_CODEX_APP_BUILD_FLAVOR = "prod"
+BROWSER_USE_CODEX_APP_VERSION = "26.924.22138"
+NODE_REPL_TRUSTED_SERVICES = '{"browser":"C:/Users/iago.luchtenberg/.codex/plugins/cache/openai-bundled/browser/26.924.22138/scripts/browser-service.mjs","sky":"@oai/sky/service"}'
+SKY_CUA_NATIVE_PIPE = "1"
+SKY_CUA_NATIVE_PIPE_DIRECTORY = '\\.\pipe\codex-computer-use-77524127-e33b-4ece-b699-0be5f8d53b5d'
+CODEX_CLI_PATH = 'C:\Users\iago.luchtenberg\AppData\Local\OpenAI\Codex\bin\faa963e871dd422c\codex.exe'
+NODE_REPL_UNTRUSTED_ENV_ALLOWLIST = "CODEX_WINDOWS_REGISTERED_CORE"
+
+[mcp_servers.headroom]
+command = 'C:\Users\iago.luchtenberg\AppData\Roaming\uv\tools\headroom-ai\Scripts\headroom.exe'
+args = [
+    "mcp",
+    "serve",
+]
+
+[mcp_servers.pg_aiguide]
+url = "https://mcp.tigerdata.com/docs?disable_mcp_skills=1"
+
+[mcp_servers.omniroute]
+url = "http://localhost:20128/api/mcp/stream"
+
+[mcp_servers.omniroute.http_headers]
+Authorization = "<REDACTED>"
+
+[projects.'c:\users\iago.luchtenberg\documents\sistema - iago\gestor de peças - area de testes']
+trust_level = "trusted"
+
+[projects.'c:\users\iago.luchtenberg\documents\codex\2026-09-08\me-a']
+trust_level = "trusted"
+
+[projects.'c:\users\iago.luchtenberg\documents\codex\2026-09-16\mi']
+trust_level = "trusted"
+
+[projects.'c:\users\iago.luchtenberg\documents\codex\2026-09-16\vej']
+trust_level = "trusted"
+
+[projects.'c:\users\iago.luchtenberg\documents\codex\2026-09-17\me-de-x20']
+trust_level = "trusted"
+
+[projects.'c:\users\iago.luchtenberg\documents\codex\2026-09-25\quero-que-voc-logue-na-minha']
+trust_level = "trusted"
+
+[projects.'c:\users\iago.luchtenberg\documents\codex\2026-09-25\t']
+trust_level = "trusted"
+
+[projects.'c:\users\iago.luchtenberg\documents\iago-company-os']
+trust_level = "trusted"
+
+[features]
+memories = true
+
+[memories]
+generate_memories = true
+use_memories = true
+
+[hooks.state]
+
+[hooks.state.'C:\Users\iago.luchtenberg\.codex\hooks.json:session_start:0:0']
+trusted_hash = "sha256:e319cca554da3b23c50814e0c77cbef1b33762d15c416668750a8d3f4b1328f8"
+
+[hooks.state.'C:\Users\iago.luchtenberg\.codex\hooks.json:user_prompt_submit:0:0']
+trusted_hash = "sha256:aaeb4f0d251de7b773341fc808e34c0f5f316edaaff31f048827b11060d42cc6"
+
+[hooks.state.'C:\Users\iago.luchtenberg\Documents\Sistema - Iago\Gestor de Peças - Area de Testes\.codex\hooks.json:pre_tool_use:0:0']
+trusted_hash = "sha256:51adbd03b0953d863163a1cc1f536f451acafbb6fbc9b2cfa89e74e901d8691c"
+
+[hooks.state.'C:\Users\iago.luchtenberg\Documents\Sistema - Iago\Gestor de Peças - Area de Testes\.codex\hooks.json:pre_tool_use:1:0']
+trusted_hash = "sha256:812e040cff96da59fd76e0a541bc10eb531f23699da1f11d534cdf7158fa34a7"
+
+[hooks.state.'C:\Users\iago.luchtenberg\Documents\Sistema - Iago\Gestor de Peças - Area de Testes\.codex\hooks.json:post_tool_use:0:0']
+trusted_hash = "sha256:0dc231c2715200d3f43466b6de7f33c02cd7618e0fbf4750614d5d6818835f00"
+
+[hooks.state.'C:\Users\iago.luchtenberg\Documents\Sistema - Iago\Gestor de Peças - Area de Testes\.codex\hooks.json:session_start:0:0']
+trusted_hash = "sha256:c255dfcf16b27d3fe6ad3df13406edb141f64095dc51283f582967c18f7774e8"
+
+[hooks.state.'C:\Users\iago.luchtenberg\.codex\hooks.json:session_start:1:0']
+trusted_hash = "sha256:7bba4c19620b38d5763c9a2e747302cec05e21cbf2f0c3736a3a61c8d7c18aea"
+
+[hooks.state.'C:\Users\iago.luchtenberg\Documents\Sistema - Iago\Gestor de Peças - Area de Testes\.codex\hooks.json:post_tool_use:1:0']
+trusted_hash = "sha256:620e860053e95a7175ba4578288f4504d6e76d59f412177180af1300b74302db"
+
+[hooks.state.'C:\Users\iago.luchtenberg\Documents\Sistema - Iago\Gestor de Peças - Area de Testes\.codex\hooks.json:post_tool_use:2:0']
+trusted_hash = "sha256:f9e40ccc7ec0fe99bc42aba78ecd9371a54395758fd6686025254a80c3d72d39"
+
+[hooks.state.'C:\Users\iago.luchtenberg\Documents\Sistema - Iago\Gestor de Peças - Area de Testes\.codex\hooks.json:user_prompt_submit:0:0']
+trusted_hash = "sha256:ff03b8b357e72baff3840808450e19025926064634a771f92577b656d1a4aec4"
+
+[hooks.state.'C:\Users\iago.luchtenberg\Documents\Sistema - Iago\Gestor de Peças - Area de Testes\.codex\hooks.json:stop:0:0']
+trusted_hash = "sha256:e07a4aff697c8abd7d61b4c78a75577cd899b28d6c50c97376bae04006f7d5c7"

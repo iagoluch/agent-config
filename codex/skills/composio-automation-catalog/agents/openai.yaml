@@ -1,0 +1,3 @@
+interface:
+  display_name: "Composio Automation Catalog"
+  short_description: "Load one archived Composio automation skill on demand"

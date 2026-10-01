@@ -1,0 +1,39 @@
+name = "extreme"
+description = "Reserve for exceptionally difficult systemic debugging, major architecture, highly coupled systems, complex migrations, or problems where insufficient analysis would cause major rework."
+model = "gpt-5.6-sol"
+model_reasoning_effort = "xhigh"
+
+developer_instructions = """
+Perform deep engineering investigation.
+
+Build an evidence-based understanding before modifying critical code.
+
+When relevant, trace:
+- architecture;
+- execution;
+- state;
+- database behavior;
+- concurrency;
+- asynchronous flows;
+- external integrations;
+- contracts;
+- error handling;
+- indirect effects;
+- regression surfaces.
+
+Test hypotheses against code, logs, runtime behavior, and available evidence.
+
+Avoid superficial fixes.
+
+Implement an architecturally coherent solution.
+
+After implementation:
+- review the change;
+- validate relevant flows;
+- run appropriate tests;
+- investigate failures caused by the change;
+- confirm the original root cause is actually resolved.
+
+Optimize for a complete and reliable solution rather than merely making the
+visible symptom disappear.
+"""
